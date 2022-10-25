@@ -39,9 +39,10 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'input',
+        type: 'list',
         message: 'Select a license for your application:',
         name: 'license',
+        choices: ['Apache 2.0', 'MIT', 'BSD 3', 'GPL v3', 'None'],
     },
     {
         type: 'input',
@@ -67,7 +68,7 @@ function init() {
         .prompt(questions)
         .then((response) => {
             console.log(`Generating README.md to ${process.cwd()}...`);
-            writeToFile('README.md', generateMarkdown( ...response))
+            writeToFile('README.md', generateMarkdown({ ...response }))
         });
 }
 
