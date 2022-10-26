@@ -56,13 +56,13 @@ const questions = [
     },
 ];
 
-// Function that writes the user's README to the file system using the fs package
+// This function writes the user's README to the file system using the fs package
 function writeToFile(fileName, data) {
     fs.writeFile(path.join(process.cwd(), fileName), data, (err) =>
     err ? console.error(err) : console.log('Success!'));
 }
 
-// Function that initializes app
+// This function initializes app
 function init() {
     inquirer
         .prompt(questions)
