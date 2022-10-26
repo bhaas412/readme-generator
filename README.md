@@ -1,56 +1,10 @@
-# Test
-  
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator
 
-  ## Description
-  
-  Description for Test project
-  
-  ## Table of Contents 
-  
-  - [Installation](#installation)
-  
-  - [Usage](#usage)
-  
-  - [License](#license)
-  
-  - [Contributing](#contributing)
-  
-  - [Tests](#tests)
-  
-  - [Questions](#questions)
-  
-  ## Installation
-  
-  To install the necessary dependencies, run the following command at the root of the project:
-  
-  ```
-  npm i
-  ```
-  
-  ## Usage
-  
-  Generates README.md
-  
-  ## License
+## Description
+This project is a README Generator that you can use in order to easily generate professional READMEs for any project you're working on.
+The README Generator is a command-line interface tool written using Node.js that also uses the Inquirer NPM package to ask the user questions and gather responses in order to dynamically generate a README.md for a project.
 
-        This project is licensed under the Apache 2.0 license.
+## Video Demo
+A video link is posted below demonstrating how the README Generator works.
 
-  ## Contributing
-  
-  Submit pull request
-  
-  ## Tests
-  
-  To run tests, run the following command at the root of the project:
-  
-  ```
-  npm test
-  ```
-  
-  ## Questions
-  
-  [My GitHub](https://github.com/bhaas412/) to see more of my work.
-
-  If there are any question, you can contact me via email at bhaas412@gmail.com.
-
+[README Generator Video Demo](https://drive.google.com/file/d/1FvwQoXyVih6PxSO9y_FbjjDeN8k02z1J/view)
